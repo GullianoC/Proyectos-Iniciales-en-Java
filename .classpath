@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Desafio - Estructuras/src"/>
+	<classpathentry kind="src" path="Desafio 2 - Objetos y Metodos/src"/>
+	<classpathentry kind="src" path="Ingreso a posgrado/src"/>
+	<classpathentry kind="src" path="Java_CodoaCodo/src"/>
+	<classpathentry kind="src" path="Tarea1_CaC/src"/>
+	<classpathentry kind="src" path="Tarea2_CaC/src"/>
+	<classpathentry kind="src" path="Tarea3_CaC_ej2/src"/>
+	<classpathentry kind="src" path="Tarea3_CaC_ej3/src"/>
+	<classpathentry kind="src" path="Tarea3_CaC/src"/>
+	<classpathentry kind="src" path="Tarea4_CaC/src"/>
+	<classpathentry kind="src" path="Tarea5_CaC/src"/>
+	<classpathentry kind="output" path="Desafio - Estructuras/out/production/Desafio - Estructuras"/>
+</classpath>
