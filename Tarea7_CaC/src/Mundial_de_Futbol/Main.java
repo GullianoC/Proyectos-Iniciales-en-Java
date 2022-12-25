@@ -16,6 +16,7 @@ public class Main {
         Pais Francia = new Pais("Francia", "Europa", "Paris", 6750000);
         Pais Italia = new Pais("Italia", "Europa", "Roma", 59070000);
         Pais Alemania = new Pais("Alemania", "Europa", "Berlin", 83130000);
+        Pais EstadosUnidos = new Pais("Estados Unidos", "America", "Washington D.C",331900000);
 
         //Se crean los clubs de los jugadores del mundial
 
@@ -32,7 +33,7 @@ public class Main {
         Club Juventus = new Club("Juventus de Turín", "Estado Juventus", "Turín", Italia);
         Club Inter = new Club("Inter de Milán", "Estadio Giuseppe Meazza", "Milán", Italia);
         Club ManchesterCity = new Club("Manchester City Football Club", "Etihad Stadium", "Manchester", Inglaterra);
-        Club Fiorentina = new Club("Associazione Calcio Firenze Fiorentina", "Estadio Artemio Franchi", "Florencia", Italia);
+        Club AtlantaUnited = new Club("Atlanta United Football Club", "Mercedes-Benz Stadium/Fifth Third Bank Stadium","Atlanta, Georgia", EstadosUnidos);
         Club Brighton = new Club("Brighton & Hove Albion Football Club", "Falmer Stadium", "Brighton & Hove", ReinoUnido);
         Club Roma = new Club("Associazione Sportiva Roma", "Estadio Olímpico de Roma", "Roma", Italia);
         Club OlympiqueLyon = new Club("Olympique de Lyon","Parc Olympique Lyonnais","Lyon", Francia);
@@ -67,11 +68,13 @@ public class Main {
         //Se crean a los mediocampiststas convocados
         ArgentinaJugadores.add(new Jugador("Rodrigo", "De Paul", "Mediocampista", 7,AtleticoMadrid));
         ArgentinaJugadores.add(new Jugador("Leandro", "Paredes", "Mediocampista", 5, Juventus));
-        ArgentinaJugadores.add(new Jugador("Alexis", "Mac Allister", "Mediocampista", 15, Brighton));
+        ArgentinaJugadores.add(new Jugador("Alexis", "Mac Allister", "Mediocampista", 20, Brighton));
         ArgentinaJugadores.add(new Jugador("Guido", "Rodríguez", "Mediocampista", 18, RealBetis));
-        ArgentinaJugadores.add(new Jugador("Alejandro", "Gomez", "Mediocampista", 17, Sevilla));
+        ArgentinaJugadores.add(new Jugador("Alejandro", "Gómez", "Mediocampista", 17, Sevilla));
         ArgentinaJugadores.add(new Jugador("Enzo", "Fernández", "Mediocampista", 24, Sevilla));
-        ArgentinaJugadores.add(new Jugador("Exequiel", "Palacios", "Mediocampista", 15, BayerLeverkusen));
+        ArgentinaJugadores.add(new Jugador("Exequiel", "Palacios", "Mediocampista", 14, BayerLeverkusen));
+        ArgentinaJugadores.add(new Jugador("Thiago", "Almada", "Mediocampista", 16, AtlantaUnited));
+
 
         // se crean a los delanteros convocados
 
@@ -79,8 +82,7 @@ public class Main {
         ArgentinaJugadores.add(new Jugador("Lautaro", "Martinez", "Delantero", 22, Inter));
         ArgentinaJugadores.add(new Jugador("Julián", "Álvarez", "Delantero", 9, ManchesterCity));
         ArgentinaJugadores.add(new Jugador("Paulo", "Dybala", "Delantero", 21, Roma));
-        ArgentinaJugadores.add(new Jugador("Thiago", "Almada", "Delantero", 15, Fiorentina));
-        ArgentinaJugadores.add(new Jugador("Ángel", "Correa", "Delantero", 16, Inter));
+        ArgentinaJugadores.add(new Jugador("Ángel", "Correa", "Delantero", 16, AtleticoMadrid));
         ArgentinaJugadores.add(new Jugador("Lionel", "Messi", "Delantero", 10, PSG));
 
         //Se crea a la selección Argentina con todos sus atributos
