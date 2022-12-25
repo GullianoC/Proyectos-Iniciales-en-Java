@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
          /*
+
          Programar un sistema de créditos que pida el nombre del usuario y su ingreso medio,
          A partir de los datos ingresados  el programa arrojará el máximo crédito disponible.
          Las lineas de crédito son
@@ -14,9 +15,10 @@ public class Main {
          Arbitrariamente se impone una tasa de interés simple del 5% mensual, y las lineas de crédito según categoría son las siguientes
          Categoria A: hasta 80.000 , Categoria B: hasta 130.000, Categoria C: hasta 200.000C
          Considerar los casos en que el monto ingresado en la línea de crédito sea superior al disponible según la categoria,
-          y aquellos casos donde el ratio cuota/ingreso sea mayor a 1/3 (un tercio)
+          y aquellos casos donde el ratio cuota/ingreso sea mayor a 1/3 (un tercio).
 
-         ***/
+         */
+
 
         float ingreso, monto, cuotaIngreso;
         double cuota, montoTotal;
