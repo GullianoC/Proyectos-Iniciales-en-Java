@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0d32c39-6f55-4118-8110-21b7cee21f6e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Seleccion Argentina/Tarea7_CaC - Selección Argentina.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/Tarea7_CaCTarea7_CaC -Selección Argentina.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/out/production/Tarea7_CaC/Mundial_de_Futbol/Asistente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/out/production/Tarea7_CaC/Mundial_de_Futbol/Club.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/out/production/Tarea7_CaC/Mundial_de_Futbol/Direccion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/out/production/Tarea7_CaC/Mundial_de_Futbol/Jugador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/out/production/Tarea7_CaC/Mundial_de_Futbol/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/out/production/Tarea7_CaC/Mundial_de_Futbol/Medico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/out/production/Tarea7_CaC/Mundial_de_Futbol/Mundial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/out/production/Tarea7_CaC/Mundial_de_Futbol/Pais.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/out/production/Tarea7_CaC/Mundial_de_Futbol/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/out/production/Tarea7_CaC/Mundial_de_Futbol/Seleccion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/out/production/Tarea7_CaC/Mundial_de_Futbol/Tecnico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/src/Mundial_de_Futbol/Asistente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/src/Mundial_de_Futbol/Club.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/src/Mundial_de_Futbol/Direccion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/src/Mundial_de_Futbol/Jugador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/src/Mundial_de_Futbol/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/src/Mundial_de_Futbol/Medico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/src/Mundial_de_Futbol/Mundial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/src/Mundial_de_Futbol/Pais.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/src/Mundial_de_Futbol/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/src/Mundial_de_Futbol/Seleccion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tarea7_CaC - Seleccion Argentina/src/Mundial_de_Futbol/Tecnico.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2H0Oo87lmH6JaeBJsIhMaI1UMDN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Proyectos de Programacion/Java/Tarea7_CaC",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0d32c39-6f55-4118-8110-21b7cee21f6e" name="Changes" comment="" />
+      <created>1667418710374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667418710374</updated>
+    </task>
+    <servers />
+  </component>
+</project>
