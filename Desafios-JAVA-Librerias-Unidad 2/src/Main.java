@@ -37,13 +37,59 @@ public class Main {
         return suerte;
     }
 
-    static String calculadoraRaicesSegundoGrado(double a, double b, double c) {
+    static String calculadoraRaicesSegundoGrado() {
+        double discriminante, a, b, c;
+        boolean continua;
         String solucion;
-        double discriminante;
+        Scanner tec = new Scanner(System.in);
+        a = 0;
+        b = 0;
+        c = 0;
         System.out.println("Vamos a hacer una calculadora de raices para un polinomio de segundo grado");
         System.out.println("ax^2 + bx + c = 0 es la ecuación de un polinomio de 2do, con a ≠ 0");
+        System.out.println("Escoge el parámetro a");
+        do {
+            try {
+                continua = false;
+                a = tec.nextDouble();
+                if (a == 0) {
+                    continua = true;
+                }
+            } catch (Exception ex) {
+                System.out.println("Recordar que el número escogido tiene que ser una opción válida");
+                System.out.println("El parámetro 'a' debe ser de tipo double, y distinto de cero");
+                continua = true;
+            }
+        } while (continua);
+
+
+        System.out.println("Escoge el parámetro b");
+        do {
+            try {
+                continua = false;
+                b = tec.nextDouble();
+            } catch (Exception ex) {
+                System.out.println("Recordar que el número escogido tiene que ser una opción válida");
+                System.out.println("El parámetro 'b' debe ser de tipo double");
+                continua = true;
+            }
+        } while (continua);
+
+        System.out.println("Escoge el parámetro c");
+        do {
+            try {
+                continua = false;
+                c = tec.nextDouble();
+            } catch (Exception ex) {
+                System.out.println("Recordar que el número escogido tiene que ser una opción válida");
+                System.out.println("El parámetro 'c' debe ser de tipo double");
+                continua = true;
+            }
+        } while (continua);
+
         System.out.println("Para este ejercicio, la ecuación de segundo grado queda expresada de la siguiente forma:");
         System.out.println(a + "x^2 + " + b + "x + " + c + " = 0");
+
         discriminante = Math.sqrt((Math.pow(b, 2.0) - 4 * a * c));
         if (discriminante > 0) {
             double solucion1, solucion2;
@@ -117,20 +163,42 @@ public class Main {
         return (0);
 
     }
+    static int opcionesMenu () {
+        int opcionElegida;
+        boolean continua;
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Opción 1: Galleta de la suerte");
+        System.out.println("Opción 2: Calculadora de raíces - ecuación 2do grado");
+        System.out.println("Opción 3: Calculadora (dos números):");
+        opcionElegida = teclado.nextInt();
+        do {
+            try {
+                continua = false;
+                opcionElegida = teclado.nextInt();
+            } catch (Exception ex) {
+                System.out.println("Recordar que el número escogido tiene que ser una opción válida");
+                continua = true;
+            }
+        } while (continua);
+
+        return opcionElegida;
+    }
 
 
     public static void main(String[] args) {
 
-        /* Desafio I
+        /*
+
+
+          Desafio I
+
           Programar una galleta de la suerte o bola 8 de la suerte donde al ingresar un número de la suerte por teclado, el usuario reciba una frase de buena suerte.
           Las frases estarán almacenadas en un arraylist.
           Se utilizará el método random para llamar un índice cualquiera del arraylist.
-        */
 
-        //Se crea la galleta de la fortuna
-        frasesSuerte();
+          Desafio II
 
-        /* Desafio II
           Realiza una aplicación que nos calcule una ecuación de segundo grado.
           Debes pedir las variables a, b y c por teclado y comprobar la operación en la raíz cuadrada.
           Para la raíz cuadrada usa el método sqlrt de Math.
@@ -139,12 +207,9 @@ public class Main {
           Un discriminante de cero indica que la cuadrática tiene una solución real repetida.
           Un discriminante negativo indica que ninguna de las soluciones son números reales.
          * Ecuación para hallar las raices -b + √(b2 - 4ac))/2a
-         */
 
-        //Se crea la calculadora ecuación de segundo grado
-        calculadoraRaicesSegundoGrado(1, 2, 3);
+         Desafio III
 
-        /*
          Crea una aplicación llamada Calculadora, nos pedirá 2 operandos (int) y un signo aritmético (String),
          según este último se realizará la operación correspondiente.
          Al final mostrará el resultado en consola.
@@ -157,9 +222,27 @@ public class Main {
          /: divide los operandos, este debe dar un resultado con decimales (double)
          ^:  1º operando como base y 2º como exponente.
          %:  módulo, resto de la división entre num1 y num2.
-        */
 
-        //Se crea la aplicación Calculadora
-        calculadoraDosNumeros();
+       */
+        
+        System.out.println("Aquí en este algoritmo se construyeron los diferentes tipos de funciones que se requerían según el enunciado");
+        opcionesMenu();
+
+        switch (opcionesMenu()) {
+            case 1:
+                frasesSuerte();
+            case 2:
+                System.out.println("");
+                calculadoraRaicesSegundoGrado();
+            case 3:
+                calculadoraDosNumeros();
+
+        }
+
+
+
+
+
+
     }
 }

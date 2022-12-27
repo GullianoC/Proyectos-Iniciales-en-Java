@@ -87,7 +87,7 @@ public class Main {
 
         //Se crea a la selección Argentina con todos sus atributos
         Seleccion ArgentinaSeleccion = new Seleccion("Argentina", Scaloni, Argentina, ArgentinaJugadores, 2);
-        ArgentinaJugadores.sort(Comparator.comparing(Jugador::getNroJugador));
+        ArgentinaJugadores.sort(Comparator.comparing(Jugador::getNroJugador)); //se ordena a los jugadores según su número de camiseta
         System.out.println(ArgentinaSeleccion.getNombre());
         System.out.println(ArgentinaSeleccion.getTecnico());
         System.out.println(ArgentinaSeleccion.getPais());
