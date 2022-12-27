@@ -2,6 +2,60 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
+    public static void main(String[] args) {
+
+        /*
+
+          Desafio I
+
+          Programar una galleta de la suerte o bola 8 de la suerte donde al ingresar un número de la suerte por teclado, el usuario reciba una frase de buena suerte.
+          Las frases estarán almacenadas en un arraylist.
+          Se utilizará el método random para llamar un índice cualquiera del arraylist.
+
+          Desafio II
+
+          Realiza una aplicación que nos calcule una ecuación de segundo grado.
+          Debes pedir las variables a, b y c por teclado y comprobar la operación en la raíz cuadrada.
+          Para la raíz cuadrada usa el método sqlrt de Math.
+          El discriminante (b2 - 4ac) puede ser positivo, cero o negativo y esto determina cuántas soluciones (o raíces) existen para la ecuación cuadrática dada.
+          Un discriminante positivo indica que la cuadrática tiene dos soluciones reales distintas.
+          Un discriminante de cero indica que la cuadrática tiene una solución real repetida.
+          Un discriminante negativo indica que ninguna de las soluciones son números reales.
+         * Ecuación para hallar las raices -b + √(b2 - 4ac))/2a
+
+         Desafio III
+
+         Crea una aplicación llamada Calculadora, nos pedirá 2 operandos (int) y un signo aritmético (String),
+         según este último se realizará la operación correspondiente.
+         Al final mostrará el resultado en consola.
+
+         Los signos aritméticos disponibles son:
+
+         +: suma los dos operandos.
+         -: resta los operandos.
+         *: multiplica los operandos.
+         /: divide los operandos, este debe dar un resultado con decimales (double)
+         ^:  1º operando como base y 2º como exponente.
+         %:  módulo, resto de la división entre num1 y num2.
+
+       */
+
+        System.out.println("Aquí en este algoritmo se construyeron los diferentes tipos de funciones que se requerían según el enunciado");
+        opcionesMenu();
+
+        switch (opcionesMenu()) {
+            case 1:
+                frasesSuerte();
+            case 2:
+                System.out.println("");
+                calculadoraRaicesSegundoGrado();
+            case 3:
+                calculadoraDosNumeros();
+
+        }
+
+
+    }
     static String frasesSuerte() {
         ArrayList<String> frases = new ArrayList<>();
         double indiceAzar;
@@ -183,66 +237,5 @@ public class Main {
         } while (continua);
 
         return opcionElegida;
-    }
-
-
-    public static void main(String[] args) {
-
-        /*
-
-
-          Desafio I
-
-          Programar una galleta de la suerte o bola 8 de la suerte donde al ingresar un número de la suerte por teclado, el usuario reciba una frase de buena suerte.
-          Las frases estarán almacenadas en un arraylist.
-          Se utilizará el método random para llamar un índice cualquiera del arraylist.
-
-          Desafio II
-
-          Realiza una aplicación que nos calcule una ecuación de segundo grado.
-          Debes pedir las variables a, b y c por teclado y comprobar la operación en la raíz cuadrada.
-          Para la raíz cuadrada usa el método sqlrt de Math.
-          El discriminante (b2 - 4ac) puede ser positivo, cero o negativo y esto determina cuántas soluciones (o raíces) existen para la ecuación cuadrática dada.
-          Un discriminante positivo indica que la cuadrática tiene dos soluciones reales distintas.
-          Un discriminante de cero indica que la cuadrática tiene una solución real repetida.
-          Un discriminante negativo indica que ninguna de las soluciones son números reales.
-         * Ecuación para hallar las raices -b + √(b2 - 4ac))/2a
-
-         Desafio III
-
-         Crea una aplicación llamada Calculadora, nos pedirá 2 operandos (int) y un signo aritmético (String),
-         según este último se realizará la operación correspondiente.
-         Al final mostrará el resultado en consola.
-
-         Los signos aritméticos disponibles son:
-
-         +: suma los dos operandos.
-         -: resta los operandos.
-         *: multiplica los operandos.
-         /: divide los operandos, este debe dar un resultado con decimales (double)
-         ^:  1º operando como base y 2º como exponente.
-         %:  módulo, resto de la división entre num1 y num2.
-
-       */
-        
-        System.out.println("Aquí en este algoritmo se construyeron los diferentes tipos de funciones que se requerían según el enunciado");
-        opcionesMenu();
-
-        switch (opcionesMenu()) {
-            case 1:
-                frasesSuerte();
-            case 2:
-                System.out.println("");
-                calculadoraRaicesSegundoGrado();
-            case 3:
-                calculadoraDosNumeros();
-
-        }
-
-
-
-
-
-
     }
 }
